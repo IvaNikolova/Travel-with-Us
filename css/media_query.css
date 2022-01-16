@@ -1,0 +1,396 @@
+/* Media query */   
+    /* 1920px */
+    @media screen and (max-width: 1920px) {
+      .info, .border, .images, .info2, .info3, .container3 {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        flex-direction: column;
+        float: none;
+      }
+    }
+
+    /* 1024px */
+    @media screen and (max-width: 1024px) {
+      .btn-one, .btn-two, .btn-three {
+        top: 20px;
+      }
+    }
+  
+    @media screen and (max-width: 1024px) {
+      .info, .border, .images, .info2, .info3, .container3 {
+        width: calc(100% - 100px);
+        margin-left: auto;
+        margin-right: auto;
+        flex-direction: column;
+        float: none;
+        background-position: center;
+      }
+    }
+
+    @media screen and (max-width: 1024px) {
+      .btn-image{
+        margin: 6px;
+      }
+    }
+
+    /* 800px */
+    @media screen and (max-width: 800px) {
+      .footer_contacts_cols {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+
+    .footer_col_position {
+      width: 100%;
+      align-content: center;
+      display: grid;
+  } 
+
+    /* 768px */
+    @media screen and (max-width: 768px) {
+      .btn-one, .btn-two, .btn-three {
+        top: 15px;
+      }
+    }
+
+    @media screen and (max-width: 768px) {
+      .age, .gender, .trip, .info2, .text-right3, .text-information {
+        width: calc(100% - 100px);
+        margin-left: auto;
+        margin-right: auto;
+        flex-direction: column;
+        float: none;
+        text-align: center;
+        margin-top: 10px;
+      }
+    }
+
+    @media screen and (max-width: 768px) {
+      .gender-checkbox {
+        margin-top: 15px;
+        width: 230px;
+        height: 40px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+
+    @media screen and (max-width: 768px) {
+      .text-information {
+        width: calc(100% - 100px);
+        margin-left: auto;
+        margin-right: auto;
+        flex-direction: column;
+        float: none;
+        text-align: center;
+        margin-top: 10px;
+        max-width: 220px;
+        width: 100%;
+      }
+    }
+
+    @media screen and (max-width: 768px) {
+      .trip-btn {
+        margin-left: 0;
+        margin-right: 0;
+        max-width: 220px;
+        width: 100%;
+      }
+    }
+
+    @media screen and (max-width: 768px) {
+      .images {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+      }
+    }
+
+    @media screen and (max-width: 768px) {
+      .btn-image, .vacantion-image {
+        max-width: 205px;
+        width: 100%;
+      }
+    }
+
+    @media screen and (max-width: 768px) {
+      .flex-text {
+        padding-top: 15%;
+      }
+    }
+
+    @media screen and (max-width: 768px) {
+      .days {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        display: table;
+      }
+    }
+
+    @media screen and (max-width: 768px) {
+      .text-center-footer, .container3, .container4, .text-footer-uppercase, .text-footer-uppercase-contacts {
+        line-height: normal;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        max-width: 500px;
+        width: 100%;
+        flex-wrap: wrap;
+        padding: 0;
+      }
+    }
+
+    @media  screen and (max-width: 768px) {
+      .footer-profile-pic{
+        line-height: normal;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        max-width: 80px;
+        width: 100%;
+        flex-wrap: wrap;
+        padding: 0;
+
+      }
+    }
+
+    /* 500px */
+    @media screen and (max-width: 500px) {
+      .flex-text {
+        padding-top: 0%;
+      }
+    }
+
+    @media screen and (max-width: 500px) {
+      .flex-container2 {
+        display: table;
+      }
+    }
+
+    @media screen and (max-width: 500px) {
+      .btn-one, .btn-two, .btn-three {
+        display: none;
+      }
+    }
+
+    @media screen and (max-width: 500px) {
+      .age, .gender, .trip, .info2, .text-right3{
+        width: calc(100% - 100px);
+        margin-left: auto;
+        margin-right: auto;
+        flex-direction: column;
+        float: none;
+        text-align: center;
+        margin-top: 10px;
+      }
+    }
+
+    @media screen and (max-width: 500px) {
+      .gender-chechbox {
+        margin-top: 15px;
+        width: 230px;
+        height: 40px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+
+    @media screen and (max-width: 500px) {
+      .info3, .position3, .text-info3{
+        width: calc(100% - 100px);
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        float: none;
+        text-align: center;
+        margin-top: 10px;
+        max-width: 250px;
+        width: 100%;
+      }
+    }
+
+    @media screen and (max-width: 500px) {
+      .text-information {
+        width: calc(100% - 100px);
+        margin-left: auto;
+        margin-right: auto;
+        flex-direction: column;
+        float: none;
+        text-align: center;
+        margin-top: 10px;
+        max-width: 220px;
+        width: 100%;
+      }
+    }
+
+    @media screen and (max-width: 500px) {
+      .trip-btn {
+        margin-left: 0;
+        margin-right: 0;
+        max-width: 220px;
+        width: 100%;
+      }
+    }
+
+    @media screen and (max-width: 500px) {
+      .images {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+      }
+    }
+
+    @media screen and (max-width: 500px) {
+      .days {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        display: table;
+      }
+    }
+
+    @media screen and (max-width: 500px) {
+      .text-center-footer, .container3, .text-footer-uppercase {
+        line-height: normal;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        max-width: 200px;
+        width: 100%;
+        flex-wrap: wrap;
+        padding: 0;
+      }
+    }
+
+    @media  screen and (max-width: 500px) {
+      .footer-profile-pic{
+        line-height: normal;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        max-width: 80px;
+        width: 100%;
+        flex-wrap: wrap;
+        padding: 0;
+      }
+    }
+    
+    /* 400px */
+    @media screen and (max-width: 400px) {
+      .flex-text {
+        padding-top: 0%;
+      }
+    }
+
+    @media screen and (max-width: 400px) {
+      .flex-container2 {
+        display: table;
+      }
+    }
+
+    @media screen and (max-width: 400px) {
+      .btn-one, .btn-two, .btn-three {
+        display: none;
+      }
+    }
+
+    @media screen and (max-width: 400px) {
+      .age, .gender, .trip, .info2, .text-right3 {
+        width: calc(100% - 100px);
+        margin-left: auto;
+        margin-right: auto;
+        flex-direction: column;
+        float: none;
+        text-align: center;
+        margin-top: 10px;
+        max-width: 220px;
+        width: 100%;
+      }
+    }
+
+    @media screen and (max-width: 400px) {
+      .text-information {
+        width: calc(100% - 100px);
+        margin-left: auto;
+        margin-right: auto;
+        flex-direction: column;
+        float: none;
+        text-align: center;
+        margin-top: 10px;
+        max-width: 220px;
+        width: 100%;
+      }
+    }
+
+    @media screen and (max-width: 400px) {
+      .gender-chechbox {
+        margin-top: 15px;
+        width: 230px;
+        height: 40px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+
+    @media screen and (max-width: 400px) {
+      .trip-btn {
+        margin-left: 0;
+        margin-right: 0;
+        max-width: 220px;
+        width: 100%;
+      }
+    }
+
+    @media screen and (max-width: 400px) {
+      .images {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+      }
+    }
+
+    
+    @media screen and (max-width: 400px) {
+      .days {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        display: table;
+      }
+    }
+
+    @media screen and (max-width: 400px) {
+      .text-center-footer, .container3, .text-footer-uppercase {
+        line-height: normal;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        max-width: 200px;
+        width: 100%;
+        flex-wrap: wrap;
+        padding: 0;
+      }
+    }
+
+    @media  screen and (max-width: 400px) {
+      .footer-profile-pic{
+        line-height: normal;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        max-width: 80px;
+        width: 100%;
+        flex-wrap: wrap;
+        padding: 0;
+
+      }
+    }
+
+  
+

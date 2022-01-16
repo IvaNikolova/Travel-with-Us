@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/header.css"/>
+    <link rel="stylesheet" href="css/main_section.css"/>
+    <link rel="stylesheet" href="css/footer.css"/>
+    <link rel="stylesheet" href="css/media_query.css"/>
+
+    <title>Travel with Us</title>
+</head>
+
+<body onload="setMonths();">
+    <!-- Header-->
+    <div class="header">
+        <div class="container">
+            <img src="images/header-image.jpg" class="img-header" alt="vacantion">  
+            <div class="row">
+                <div class="text-top-middle">
+                    <h1 class="text-center-header">Travel with us</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="text-middle">
+                    <h2 class="text-center-header">Организирай своето пътуване с експертите на Travel with us</h2>
+                </div>
+            </div>  
+            <div class="flex-container">
+                <div class="flex-container2">
+                    <p class="flex-text">
+                        <button class="btn-one">1</button>
+                        Разкажи ни повече за теб и твоето пътуване
+                    </p>
+                    <p class="flex-text">
+                        <button class="btn-two">2</button>
+                        Експертите на Travel with Us ще изберат най- добрите оферти безплатно за теб
+                    </p>
+                    <p class="flex-text">
+                        <button class="btn-three">3</button>
+                        Резервирай бързо и лесно и направи своето пътуване 
+                    </p>
+                </div>
+            </div>   
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="container2">
+            <!--Personal info-->
+            <div class="info">
+                <div class="row">
+                    <div class="gender">
+                        <h5 class="text-information">Аз съм</h5>
+                        <div class="gender-checkbox">
+                            <label class="con1">
+                                <i class="fa fa-mars"></i>
+                                Мъж
+                                <input type="radio" name="radio1" checked>
+                                <span class="checkmark"></span>
+                            </label>
+                            <label class="con1">
+                                <i class="fa fa-venus"></i>
+                                Жена
+                                <input type="radio" name="radio1">
+                                <span class="checkmark"></span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="age">
+                        <h5 class="text-information">На възраст</h5>
+                        <input type="number" class="select-years" min="18" max="120" step="1" id="years" name="years" pattern="\d+">
+                    </div>
+                    <div class="trip">
+                        <h5 class="text-information">Ще пътуваме</h5>
+                        <button class="trip-btn" id="btn-trip"> 
+                            <div class="lay"></div>
+                            <div class="trip-caption">
+                                <p>Двойка</p>
+                            </div>
+                        </button>
+                        <button class="trip-btn" id="btn-trip2"> 
+                            <div class="lay"></div>
+                            <div class="trip-caption">
+                                <p>Семейство</p>
+                            </div>
+                        </button>
+                        <button class="trip-btn" id="btn-trip3">
+                            <div class="lay"></div>
+                            <div class="trip-caption">
+                                <p>Голяма група</p>
+                            </div> 
+                        </button>
+                    </div> 
+                </div>
+            </div>
+    
+            <div class="border"></div>
+
+            <!--Images-->
+            <div class="images">
+                <div class="row-pic">
+                    <h5 class="text-right3">Харесвам</h5>
+                    <button class="btn-image">
+                        <img src="images/1.jpg" class="vacantion-image" alt="Family vacation">
+                        <div class="overlay">
+                            <span class="check">&#10003</span>
+                        </div>
+                        <div class="caption">
+                            <p>Семейна почивка</p>
+                        </div>
+                    </button>
+                    <button class="btn-image">
+                        <img src="images/2.jpg" class="vacantion-image" alt="Cultural tourism">
+                        <div class="overlay">
+                            <span class="check">&#10003</span>
+                        </div>
+                        <div class="caption">
+                            <p>Културен туризъм</p>
+                        </div>
+                    </button>
+                    <button class="btn-image">
+                        <img src="images/3.jpg" class="vacantion-image" alt="Luxury vacation">
+                        <div class="overlay">
+                            <span class="check">&#10003</span>
+                        </div>
+                        <div class="caption">
+                            <p>Луксозна повичка</p>
+                        </div>
+                    </button>
+                    <button class="btn-image">
+                        <img src="images/4.jpg" class="vacantion-image" alt="Cruise">
+                        <div class="overlay">
+                            <div class="overlay">
+                                <span class="check">&#10003</span>
+                            </div>
+                            </div>
+                            <div class="caption">
+                                <p>Круиз</p>
+                            </div>
+                    </button>
+                    <button class="btn-image">
+                        <img src="images/5.jpg" class="vacantion-image" alt="Cooking destination">
+                        <div class="overlay">
+                            <span class="check">&#10003</span>
+                        </div>
+                        <div class="caption">
+                            <p>Кулинарна дестинация</p>
+                        </div>
+                    </button>
+                    <button class="btn-image">
+                        <img src="images/6.jpg" class="vacantion-image" alt="Wine destination">
+                        <div class="overlay">
+                            <span class="check">&#10003</span>
+                        </div>
+                        <div class="caption">
+                            <p>Винена дестинация</p>
+                        </div>
+                    </button>
+                    <button class="btn-image">
+                        <img src="images/7.jpg" class="vacantion-image" alt="Photography">
+                        <div class="overlay">
+                            <span class="check">&#10003</span>
+                        </div>
+                        <div class="caption">
+                            <p>Фотография</p>
+                        </div>
+                    </button>
+                    <button class="btn-image">
+                        <img src="images/8.jpg" class="vacantion-image" alt="Ski and snowboard">
+                        <div class="overlay">
+                            <span class="check">&#10003</span>
+                        </div>
+                        <div class="caption">
+                            <p>Ски и сноуборд</p>
+                        </div>
+                    </button>
+                    <button class="btn-image">
+                        <img src="images/9.jpg" class="vacantion-image" alt="Adventure">
+                        <div class="overlay">
+                            <span class="check">&#10003</span>
+                        </div>
+                        <div class="caption">
+                            <p>Приключения</p>            
+                        </div>
+                    </button>
+                    <button class="btn-image">
+                        <img src="images/10.jpg" class="vacantion-image" alt="Romance">
+                        <div class="overlay">
+                            <span class="check">&#10003</span>
+                        </div>
+                        <div class="caption">
+                            <p>Романтика</p>
+                        </div>
+                    </button>
+                    <button class="btn-image">
+                        <img src="images/11.jpg" class="vacantion-image" alt="Beach and coctails">
+                        <div class="overlay">
+                            <span class="check">&#10003</span>
+                        </div>
+                        <div class="caption">
+                            <p>Плаж и коктейли</p>
+                        </div>
+                    </button>
+                    <button class="btn-image">
+                        <img src="images/12.jpg" class="vacantion-image" alt="Sport events">
+                        <div class="overlay">
+                            <span class="check">&#10003</span>
+                        </div>
+                        <div class="caption">
+                            <p>Спортни събития</p>
+                        </div>
+                    </button>
+                    <button class="btn-image">
+                        <img src="images/13.jpg" class="vacantion-image" alt="Concerts and Festivals">
+                        <div class="overlay">
+                            <span class="check">&#10003</span>
+                        </div>
+                        <div class="caption">
+                            <p>Концерти и фестивали</p>
+                        </div>
+                    </button>
+                    <button class="btn-image">
+                        <img src="images/14.jpg" class="vacantion-image" alt="Concerts and Festivals">
+                        <div class="overlay">
+                            <span class="check">&#10003</span>
+                        </div>
+                        <div class="caption">
+                            <p>Исторически туризъм</p>
+                        </div>
+                    </button>
+                </div>
+            </div>
+        
+            <div class="border"></div>
+
+            <!--Months you would like to travel-->
+            <div class="info2">
+                <label class="days" for="days">
+                    <p class="days-text">Мога да отделя</p>
+                    <input name="days" type="number" class="days-container" min="1" max="100" pattern="\d+" 
+                    onkeyup="this.value=this.value.replace(/[^\d]/,'')" required>
+                    <p class="days-text">дни, за предпочитане през</p>
+                    <select name="month" id="month" class="month-container"></select>
+                </label>
+
+                <!--Range Slider-->
+                <div class="row-slider">
+                    <h5 class="text-slider">Бюджетът ми за това пътуване е</h5>
+                    <input type="range" min="100" max="3000" value="50" class="slider" id="myRange" style="width:100%">
+                    <span >
+                        <span id="myValue" class="slider-value"></span>
+                    </span>      
+                </div>
+            </div>
+            
+            <div class="border"></div>
+            
+            <!--Personal info-->
+            <div class="info3">
+                <form action="#">
+                <div class="row">
+                    <div class="position3">
+                        <h5 class="text-info3">Име</h5>
+                        <input type="text" class="input-info3" id="name" name="name" onkeypress="return /[a-z]/i.test(event.key)" pattern="[a-zA-Z'-'\s]*"
+                        validate="required:true">
+                    </div>
+                    <div class="position3">
+                        <h5 class="text-info3">Еmail</h5>
+                        <input type="email" class="input-info3" id="email" name="email" pattern="^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$" 
+                        validate="required:true">
+                    </div>
+                    <div class="position3">
+                        <h5 class="text-info3">Телефон</h5>
+                        <input type="text" onkeyup="this.value=this.value.replace(/[^\d]/,'')" class="input-info3" id="phone" name="phone" pattern="(^(\+?\-? *[0-9]+)([,0-9 ]*)([0-9 ])*$)|(^ *$)"
+                        validate="required:true">
+                    </div>
+                    <div class="position3">
+                        <input class="btn-state-offer" type="submit" id="offer" name="offer" value="Заяви оферта">
+                    </div>
+                </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer-->
+    <div class="footer">
+        <div class="container3">
+            <div class="row justify-content-md-center">
+                <h4 class="text-footer-uppercase">Мнения на клиенти</h4>
+            </div>
+            <div class="row justify-content-md-center">
+                <img src="images/footer-image.jpg" alt="profile" class="footer-profile-pic">
+            </div>
+            <div class="row justify-content-md-center">
+                <p class="text-center-footer">Искарахме си невроятно. Всички предложения които получихме бяха доста интересни и точно каквито търсихме. Определено препоръчвам използването на тази компания.</p>
+                <p class="text-center-footer">Николай Белев</p>
+            </div>
+            <div class="row justify-content-md-center">
+                <p class="text-center-footer" style="display: none">С жена ми искахме да отидем на романтична почивка и всички предложения които получихме бяха страхотни. Изборът беше изключително труден, тъй като всички места бяха интигуващи, но в край на сметка мисля че избрахме най-доброто. Определено Ви го препоръчвам.</p>
+                <p class="text-center-footer" style="display: none">Петър Мочев</p>
+            </div>
+            <div class="row justify-content-md-center">
+                <div class="col">
+                    <button class="btn-back">&#8249</button>
+                    <button class="btn-next">&#8250</button>
+                </div>
+            </div>
+        </div>
+        <div class="container4">
+            <div class="row justify-content-md-center">
+                <h4 class="text-footer-uppercase-contacts">Контакти</h4>
+            </div>
+            <div class="footer_contacts_cols">
+                <div class="footer_col_position">
+                    <p class="phone_info"> 
+                        <span>Телефон</span>
+                    </p>
+                    <p class="phone_info">+359 888 457 195</p>
+                </div>
+                <div class="footer_col_position">
+                    <p class="email_info"> 
+                        <span>Email</span>
+                    </p>
+                    <p class="email_info">TravelWithUs@gmail.com</p>
+                </div>
+                <div class="footer_col_position">
+                    <p class="address_info"> 
+                        <span>Адрес</span>
+                    </p>
+                    <p class="address_info">ул. „Солунска“ 34, 1000 Център, София</p>
+                </div>
+            </div> 
+            <div class="footer_icons_col">
+                <div class="footer_icons_position">
+                    <a href="https://www.linkedin.com/feed/" class="fa fa-linkedin"></a>
+                    <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+                    <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+                </div>
+            </div>   
+        </div>
+    </div>
+
+    <script type="text/javascript" charset="utf-8">
+        var myRange = document.querySelector('#myRange');
+        var myValue = document.querySelector('#myValue');
+        var off = myRange.offsetWidth / (parseInt(myRange.max) - parseInt(myRange.min));
+        var px =  ((myRange.valueAsNumber - parseInt(myRange.min)) * off) - (myValue.offsetParent.offsetWidth / 2);
+        
+          myValue.parentElement.style.left = px + 'px';
+          myValue.parentElement.style.top = myRange.offsetHeight + 'px';
+          myValue.innerHTML = myRange.value;
+        
+          myRange.oninput =function(){
+            let px = ((myRange.valueAsNumber - parseInt(myRange.min)) * off) - (myValue.offsetWidth / 2);
+            myValue.innerHTML = myRange.value;
+            myValue.parentElement.style.left = px + 'px';
+          };
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" 
+    crossorigin="anonymous" type="text/javascript" charset="utf-8">
+    </script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+    <script type="text/javascript" charset="utf-8">
+        $('.trip-btn').click(function(){
+            $(this).toggleClass('trip-btn-lay');
+        });
+    </script>
+
+    <script type="text/javascript" charset="utf-8">
+        $('.btn-image').click(function(){
+            $(this).toggleClass('btn-image-overlay');
+        });
+    </script>
+
+    <script>
+        var months = new Array();
+        months['Months'] = new Array('', 'Януари', 'Февруари', 'Март', 'Април', 'Май', 'Юни', 'Юли', 'Август', 'Септември', 'Октомври', 'Ноември', 'Декември'); 
+
+        function setMonths() {
+            var newOptions=months['Months'];
+            var newValues=months['Months'];
+            selectField = document.getElementById("month");
+            selectField.options.length = 0;
+            for (i = 0; i < newOptions.length; i++) {
+                selectField.options[selectField.length] = new Option(newOptions[i], newValues[i]);
+            }
+        }
+    </script>
+
+    <script type="text/javascript" charset="utf-8">
+        $( '.btn-next' ).click(function() {
+            $( ".text-center-footer").toggle();
+        });
+    </script>
+
+    <script type="text/javascript" charset="utf-8">
+        $( '.btn-back' ).click(function() {
+            $( ".text-center-footer").toggle();
+        });
+    </script>
+
+</body>
+</html>

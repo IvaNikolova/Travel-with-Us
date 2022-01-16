@@ -1,0 +1,116 @@
+/* Footer */
+.footer {
+    max-width: 1920px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    background-color: rgb(211, 211, 211);
+    padding: 70px;
+    color: rgb(53, 52, 52);
+  }
+
+  .container3 {
+    max-width: 1920px;
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+  }
+
+  .text-footer-uppercase {
+    text-transform: uppercase;
+  }
+
+  .text-center-footer {
+    text-align: center;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+    max-width: 730px;
+    width: 100%;
+  }
+
+  .footer-profile-pic {
+    width: 160px; 
+    border-radius: 50%;
+  }
+
+  .btn-back, .btn-next {
+    box-shadow: inset 0px 0px 0px 0px #ff6600;
+    background-color: #302b2b;
+    display: inline-block;
+    cursor: pointer;
+    font-family: Trebuchet MS;
+    font-size: 18px;
+    padding: 0px;
+    flex-grow: 2;
+    width: 35px;
+    height: 35px;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50%;
+    font-family:Trebuchet MS;
+    border-style: none;
+    margin-right: 10px;
+  }
+  
+  .btn-back:hover, .btn-next:hover {
+    background-color:#ff6600;
+  }
+
+  .btn-back:focus, .btn-next:focus {
+    background-color:#ff6600;
+  }
+
+  .container4 {
+    max-width: 1920px;
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    border-top: solid;
+    margin-top: 50px;
+  }
+
+  .text-footer-uppercase-contacts {
+    text-transform: uppercase;
+    margin-top: 30px;
+  }
+
+  .footer_contacts_cols {
+    position: relative;
+    width: 100%;
+    height: 140px;
+    display: flex;
+    flex-direction: row;
+    top: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 16px;
+    letter-spacing: 1px;
+  }
+
+  .footer_col_position {
+    width: 33%;
+    align-content: center;
+    display: grid;
+  } 
+
+  .fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  a {
+      color: #ff6600;
+      text-decoration: auto;
+      margin: 10px;
+  }
